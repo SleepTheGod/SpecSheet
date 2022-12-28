@@ -1,0 +1,240 @@
+1. Item name :____________
+ 
+ 
+2. Vendor
+ 
+Homepage:____________
+ 
+ 
+3. Vulnerable
+ 
+Software:____________
+ 
+ 
+4. Asking Price and availability of exclusive acquisition:
+________
+ 
+ 
+5. Affected OS: ________
+ 
+ 
+6. Vulnerable Target application versions and reliability. If 32 bit only, is 64 bit
+ 
+vulnerable?
+ 
+List complete point release range.
+ 
+____________
+ 
+ 
+7. Tested, functional against target application versions, list complete point
+ 
+release range.
+ 
+Explain ____________
+ 
+ 
+8. Does this exploit affect the current target version?
+ 
+[ ] Yes
+ 
+[ ] No
+ 
+ 
+9. Targets can be found with google dork/shodan/censys?
+ 
+[ ] Yes
+ 
+[ ] No
+ 
+ 
+10. Privilege Level Gained
+ 
+[ ] As logged in user (Select Integrity level below for Windows)
+ 
+[ ] Web Browser's default (IE - Low, Others - Med)
+ 
+[ ] Low
+ 
+[ ] Medium
+ 
+[ ] High
+ 
+[ ] Root, Admin or System
+ 
+[ ] Ring 0/Kernel
+ 
+[ ] Other
+ 
+ 
+11. Minimum Privilege Level Required For Successful PE
+ 
+[ ] As logged in user (Select Integrity level below for Windows)
+ 
+[ ] Low
+ 
+[ ] Medium
+ 
+[ ] High
+ 
+[ ] N/A
+ 
+[ ] Other ________
+ 
+ 
+12. Exploit Type (select all that apply)
+ 
+[ ] Remote code execution
+ [ ] Privilege escalation
+[ ] Font based
+ 
+[ ] Sandbox escape
+ 
+[ ] Information disclosure (peek)
+ 
+[ ] Code signing bypass
+ 
+[ ] Persistency
+ 
+[ ] Other ________
+ 
+ 
+13. Delivery Method
+ 
+[ ] Via web page
+ 
+[ ] Via file
+ 
+[ ] Via network protocol
+ 
+[ ] Local privilege escalation
+ 
+[ ] Other (please specify) ________
+ 
+ 
+14. Bug Class
+ 
+[ ] memory corruption
+ 
+[ ] design/logic flaw (auth-bypass / update issues)
+ 
+[ ] input validation flaw (XSS/XSRF/SQLi/command injection, etc.)
+ 
+[ ] misconfiguration
+ 
+[ ] information disclosure
+ 
+[ ] cryptographic bug
+ 
+ [ ] denial of service
+15. Number of bugs exploited in the item: ________
+ 
+ 
+16. Exploitation Parameters
+ 
+[ ] Bypasses ASLR
+ 
+[ ] Bypasses DEP / W ^ X
+ 
+[ ] Bypasses Application Sandbox
+ 
+[ ] Bypasses SMEP/PXN
+ 
+[ ] Bypasses EMET Version 5.52Â±
+ 
+[ ] Bypasses CFG (Win 8.1)
+ 
+[ ] N/A
+ 
+ 
+17. Is ROP employed?
+ 
+[ ] No
+ 
+[ ] Yes (but without fixed addresses)
+ 
+- Number of chains included?
+________
+ 
+- Is the ROP set complete?
+________
+ 
+- What module does ROP occur from?
+________
+ 
+ 
+18. Does this item alert the target user?
+ 
+Explain __________
+ 
+ 
+19. How long does exploration take, in seconds?
+ 
+ 19. How long does exploitation take, in seconds?
+20. Does this item require any specific user interactions?
+ 
+ 
+21. Any associated caveats or environmental factors? For example - does the
+ 
+exploit determine
+ 
+remote OS/App versioning, and is that required? Any browser injection
+ 
+method requirements?
+ 
+For files, what is the access mode required for success?
+ 
+ 
+22. Does it require additional work to be compatible with arbitrary payloads?
+ 
+[ ] Yes
+ 
+[ ] No
+ 
+ 
+23. Is this a finished item you have in your possession that is ready for
+ 
+delivery immediately?
+ 
+[ ] Yes
+ 
+[ ] No
+ 
+[ ] 1-5 days
+ 
+[ ] 6-10 days
+ 
+[ ] More: _______
+ 
+ 
+24. Does this exploit weaponized ?
+ 
+[ ] Yes
+ 
+[ ] No
+ 
+ 
+25. Impact on framework (crashes, etc.)
+ 
+____________
+ 
+  26. Success rate (or number of necessary attempts)
+ 
+_________
+ 
+ 
+27. Does this item support continuation of execution?
+ 
+ 
+28. Description. Detail a list of deliverables including documentation.
+ 
+ 
+29. Testing Instructions :
+ 
+_____________
+ 
+30. Comments and other notes; unusual artifacts, other limitations,
+ 
+mitigations or other
+ 
+pieces of information :
